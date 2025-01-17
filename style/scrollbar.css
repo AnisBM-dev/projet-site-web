@@ -1,0 +1,86 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
+/*=============== CARD ===============*/
+.container {
+    width: 100vw;
+    height: 400px;
+ margin: 50px 0 100px 0;
+}
+.card__article {
+    /* Remove after adding swiper js */ 
+  border-radius: 25px;
+
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  transform: rotateX('-45deg');
+  transition: 0.4s ease;
+  padding: 0;
+}
+.card__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card__img {
+    width: 300px;
+    z-index: 10;
+    border-radius: 50px;
+  }
+.card__article:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(11, 11, 11);
+}
+
+
+.card__shadow {
+  width: 520px;
+  height: 100px;
+  background-color:rgb(255, 0, 0);
+  border-radius: 50%;
+  position:absolute;
+  right: 180px;
+  margin-inline: auto;
+  filter: blur(45px);
+}
+
+.card__logo {
+    width: 200px;
+    border-radius: 70px;
+
+}
+.card__text{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:baseline;
+    margin: 50px 0 ;
+    
+}
+.card__description {
+  font-weight: 100;
+font-size: 25px;
+  color: white;
+}
+.card__button{
+    /* position: relative; */
+    z-index: 10;
+    width:100px;
+    height: 50px;
+}
+.card__btn{
+    color: white;
+    text-decoration: none;
+}
+
+.card__button {
+
+  background-color:red;
+  border-radius: 50px;
+  font-weight: 600;
+}
