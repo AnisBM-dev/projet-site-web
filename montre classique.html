@@ -1,127 +1,552 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style/page1.css">
+    <link rel="stylesheet" href="./style/page1.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Roboto:wght@100;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style/swiper-bundle.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/product.css" />
+  </head>
+  <body>
     <nav>
-        <div id="logoname">
+      <div id="logon">
+        
           <img
             id="logo"
             src="./images/Logo bwatch.jpg"
-            alt="./images/Logo bwatch.jpg"
+            alt="./images"
           />
           <p style="color: rgb(231, 189, 0); font-size: 50px">B</p>
           <p style="color: white; font-size: 20px; font-weight: 700">
             <i>WATCH</i>
           </p>
-        </div>
-  
-        <div class="info">
-          <i
+
+      </div>
+      <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </label>
+      <lu class="nav-list">
+        <li class="nav-item">
+          <div class="nav-link">
+            <i
             class="fa-solid fa-house"
-            style="color: #ffffff; font-size: 10px; margin: 15px"
+            style="color: #ffffff; font-size: 25px; margin: 15px"
           ></i>
           <a href="./page1.html" class="navcom">Home</a>
+          </div>
+          </li>
+        <li class="nav-item">
+          <div class="nav-link">
           <i
             class="fa-solid fa-user"
-            style="color: #ffffff; font-size: 10px; margin: 15px"
+            style="color: #ffffff; font-size: 25px; margin: 15px"
           ></i>
           <a href="./login page.html" class="navcom">login</a>
-          <i
+        </div>
+        </li>
+        <li class="nav-item">
+          <div class="nav-link">
+            <i
             class="fa-solid fa-magnifying-glass"
-            style="color: #ffffff; font-size: 10px; margin: 15px"
+            style="color: #ffffff; font-size: 25px; margin: 15px"
           ></i>
           <a href="#search" class="navcom">search</a>
+        </div>
+      </li>
+        <li class="nav-item">
+         <div class="nav-link">
           <i
-            class="fa-regular fa-address-book"
-            style="color: #ffffff; font-size: 10px; margin: 15px"
-          ></i>
-          <a href="#contact" class="navcom">Contact</a>
+          class="fa-regular fa-address-book"
+          style="color: #ffffff; font-size: 25px; margin: 15px"
+        ></i>
+        <a href="#contact" class="navcom">Contact</a>
+         </div>
+        </li>
+        <li class="nav-item">
+          <div class="nav-link">
+            <i class="fa-solid fa-cart-shopping"
+          style="color: #ffffff; font-size: 25px; margin: 15px"></i>
+          </div>
+        </li>
+      </lu>
+    </nav>
+    <div class="titreh">
+      <h1>
+        Bienvenue dans la gamme Classique
+      </h1>
+    </div>
+    <div class="bodcontent">
+      <div class="marque">
+        <div class="image-marque-position">
+          <img
+            class="image-marque"
+            src="./images/1733227785315-Banner_Festina_carrousel_connectedD_geraldButler_desk.webp"
+            alt="./images"
+          />
         </div>
-      </nav>
-      <footer>
-        <div id="information">
-          <div>
-            <div class="footercontent">
-              <br />
-              <br />
-              <p>Politique de confidentialité</p>
-              <p>Conditions d'utilisation</p>
-              <p>Conditions de vente et paiement</p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <p id="contact">Contact</p>
-            </div>
-            <div class="footercontent">
-              <p>Email : anis40610@gmail.com</p>
-              <p>Num : 0791300127</p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <p>Reseau sociaux</p>
-            </div>
-            <!-- icons des reseau sociaux -->
-            <div class="rs">
-              <a
-                class="footercontents"
-                href="https://web.facebook.com/profile.php?id=61564054181863&locale=fr_FR"
-              >
-                <i class="fa-brands fa-facebook"></i
-              ></a>
-              <a
-                class="footercontents"
-                href="https://www.instagram.com/bwatch.dz/"
-              >
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a class="footercontents" href="">
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
-              <a class="footercontents" href="">
-                <i class="fa-brands fa-tiktok"></i>
-              </a>
-            </div>
-          </div>
-          <div>
-            <form action="">
+        <div class="column">
+          <div class="row">
+            <div class="element">
               <div>
-                <p>Search</p>
+                <img
+                  class="photo-montre"
+                  src="./images/f20511_3.jpg"
+                  alt="./images"
+                />
               </div>
-              <input type="text" id="typesearch" />
-              <button id="search">Search</button>
-            </form>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">FESTINA F20511/3 HOMME</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>ACHETER</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/f20019_3.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">FESTINA F20019/3 HOMME</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>ACHETER</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/f20016_3.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">MONTRE FESTINA F20016/3 HOMME</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>ACHETER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/f20020_3.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">FESTINA F20020/3 HOMME</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>ACHETER</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/f20021_1.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">FESTINA F20021/1 FEMME</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>ACHETER</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/f20053_1.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">FESTINA F20053/1 HOMME</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>ACHETER</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="mlogo">
-          <img
-            style="width: 100px"
-            src="./images/breitlinglogo.jpg"
-            alt="./images/breitlinglogo.jpg"
-          />
-          <img style="width: 100px" src="./images/casiologo.jpg" alt="" />
-          <img style="width: 100px" src="./images/festina logo.jpg" alt="" />
-          <img style="width: 100px" src="./images/hublotlogo.jpg" alt="" />
-          <img
-            style="width: 100px"
-            src="./images/Patekphilippe-Logo.jpg"
-            alt=""
-          />
-          <img style="width: 100px" src="./images/rolex logo.jpg" alt="" />
+      </div>
+      <div class="marque">
+        <div class="column">
+          <div class="row">
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/rolex 1908.png"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">ROLEX 1908</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/rolex datejust.png"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">ROLEX DATEJUST</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/rolex lady-datejust.png"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">ROLEX LADY-DATEJUST</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/rolex day-date.png"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">ROLEX DAY-DATE</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/rolex Oyster Perpetual.png"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">ROLEX OYSTER PERPETUAL</p>
+
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/rolex sky-dweller.png"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">ROLEX sky-dweller</p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </footer>
-</body>
+        <div class="image-marque-position">
+          <img
+            class="image-marque2"
+            src="./images/rolex-explorer-orange-hand.jpg"
+            alt="./images"
+          />
+        </div>
+      </div>
+      <div class="marque">
+        <div class="image-marque-position">
+          <img
+            class="image-marque2"
+            src="./images/patek philippe publicite.jpg"
+            alt="./images"
+          />
+        </div>
+        <div class="column">
+          <div class="row">
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/5227G-010.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">
+                PATEK PHILIPPE 5227G-010
+                </p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button><i class='bx bxs-shopping-bag add-cart'>Acheter</i></button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/5236P-001.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">
+                  PATEK PHILIPPE 5236P-001
+                </p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/5270J-001.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">
+                  PATEK PHILIPPE 5270J-001
+                </p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/5821-1A-001.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">
+                  PATEK PHILIPPE 5821-1A-001
+                </p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/5822P-001.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">
+                  PATEK PHILIPPE 5822P-001
+                </p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+            <div class="element">
+              <div>
+                <img
+                  class="photo-montre"
+                  src="./images/7041R-001.jpg"
+                  alt="./images"
+                />
+              </div>
+              <div>
+                <p class="type-montre">Classic</p>
+                <p class="description-montre">
+                  PATEK PHILIPPE 7041R-001
+                </p>
+                <p class="prix-montre">30,000 DA</p>
+                <p class="diponibilité">Bientot disponible</p>
+                <div class="button-c">
+                  <button>Acheter</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="information">
+        <div>
+          <div class="footercontent">
+            <br />
+            <br />
+            <p>Politique de confidentialité</p>
+            <p>Conditions d'utilisation</p>
+            <p>Conditions de vente et paiement</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p id="contact">Contact</p>
+          </div>
+          <div class="footercontent">
+            <p>Email : anis40610@gmail.com</p>
+            <p>Num : 0791300127</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>Reseau sociaux</p>
+          </div>
+          <!-- icons des reseau sociaux -->
+          <div class="rs">
+            <a
+              class="footercontents"
+              href="https://web.facebook.com/profile.php?id=61564054181863&locale=fr_FR"
+            >
+              <i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              class="footercontents"
+              href="https://www.instagram.com/bwatch.dz/"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="footercontents" href="">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="footercontents" href="">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+        <div>
+          <form action="">
+            <div>
+              <p>Search</p>
+            </div>
+            <input type="text" id="typesearch" />
+            <button id="search">Search</button>
+          </form>
+        </div>
+      </div>
+      <div class="mlogo">
+        <img
+          style="width: 100px"
+          src="./images/breitlinglogo.jpg"
+          alt="./images/breitlinglogo.jpg"
+        />
+        <img style="width: 100px" src="./images/casiologo.jpg" alt="" />
+        <img style="width: 100px" src="./images/festina logo.jpg" alt="" />
+        <img style="width: 100px" src="./images/hublotlogo.jpg" alt="" />
+        <img
+          style="width: 100px"
+          src="./images/Patekphilippe-Logo.jpg"
+          alt=""
+        />
+        <img style="width: 100px" src="./images/rolex logo.jpg" alt="" />
+      </div>
+    </footer>
+  </body>
+  <script src="./scripts/page1.js"></script>
 </html>

@@ -39,7 +39,7 @@ nav{
 }
 h2{
   font-size: 70px;
-  color: white;
+  color: rgb(255, 167, 24);
   font-weight: 800;
   position: absolute;
 }
@@ -49,13 +49,17 @@ h2{
   justify-content: space-around;
   align-items: center;
 }
+.logo-name{
+  display: flex;
+  align-items: center;
+}
 .intro{
   color: black;
   font-size: 20px;
-  width: 500px;
+  width: 50%;
   font-weight: 100;
 }
-.info{
+.nav-list{
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -143,4 +147,119 @@ footer{
   width: 100vw;
   color: white;
   margin: 0;
+}
+@media (max-width: 990px) {
+  h2{
+    font-size: 40px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .intro{
+    font-size: 10px;
+  }
+  #information{
+    display: block;
+  }
+  .rs{
+    display: flex;
+    justify-content:flex-start;
+  }
+  .mlogo{
+    display: block;
+  }
+}
+@media (max-width: 450px) {
+  h2{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .intro{
+    font-size: 10px;
+  }
+  .titreh{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 10px;
+
+  }
+  .footercontent{
+    font-size: 5px;
+  }
+  .footercontents{
+    font-size: 10px;
+  }
+  .logo-name{
+    display: none;
+  }
+}
+@media (max-width: 675px) {
+
+  nav .nav-list {
+      display: grid;
+      position: absolute;
+      background: #000000;
+      width: 50%;
+      top: 0;
+      right: 0;
+      transform: translateY(-100%);
+      z-index: -1;
+      transition: .6s;
+  }
+
+  nav .nav-list .nav-item {
+      padding-left: 35px;
+  }
+
+  nav .navbar-toggler {
+      display: grid !important;
+  }
+
+}
+
+nav .navbar-toggler {
+  display: none;
+  height: min-content;
+  margin: 18px 0px 0 0;
+  cursor: pointer;
+}
+
+nav .navbar-toggler .bar {
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background: #d9d9d9;
+  margin-right: 30px;
+  border-radius: 10%;
+  transition: .4s;
+}
+
+input {
+  display: none;
+}
+
+input:checked ~ nav .nav-list {
+  transform: translateY(0);
+}
+
+input:checked ~ nav .navbar-toggler {
+  margin-top: 35px;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: red;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+  display: none;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+  transform: rotate(-45deg);
+  background-color: red;
 }

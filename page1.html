@@ -19,40 +19,74 @@
       href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Roboto:wght@100;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./style/index.css">
   </head>
   <body>
+    <input type="checkbox" id="toggle">
     <nav>
       <div id="logon">
-        <img
-          id="logo"
-          src="./images/Logo bwatch.jpg"
-          alt="./images/Logo bwatch.jpg"
-        />
-        <p style="color: rgb(231, 189, 0); font-size: 50px">B</p>
-        <p style="color: white; font-size: 20px; font-weight: 900">WATCH</p>
+          <img
+            id="logo"
+            src="./images/Logo bwatch.jpg"
+            alt="./images"
+          />
+          <div class="logo-name">
+          <p style="color: rgb(231, 189, 0); font-size: 50px">B</p>
+          <p style="color: white; font-size: 20px; font-weight: 700">
+            <i>WATCH</i>
+          </p>
+        </div>
+
       </div>
-      <div class="info">
-        <i
-          class="fa-solid fa-house"
-          style="color: #ffffff; font-size: 25px; margin: 15px"
-        ></i>
-        <a href="./page1.html" class="navcom">Home</a>
-        <i
-          class="fa-solid fa-user"
-          style="color: #ffffff; font-size: 25px; margin: 15px"
-        ></i>
-        <a href="./login page.html" class="navcom">login</a>
-        <i
-          class="fa-solid fa-magnifying-glass"
-          style="color: #ffffff; font-size: 25px; margin: 15px"
-        ></i>
-        <a href="#search" class="navcom">search</a>
-        <i
+      <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </label>
+      <lu class="nav-list">
+        <li class="nav-item">
+          <div class="nav-link">
+            <i
+            class="fa-solid fa-house"
+            style="color: #ffffff; font-size: 25px; margin: 15px"
+          ></i>
+          <a href="./page1.html" class="navcom">Home</a>
+          </div>
+          </li>
+        <li class="nav-item">
+          <div class="nav-link">
+          <i
+            class="fa-solid fa-user"
+            style="color: #ffffff; font-size: 25px; margin: 15px"
+          ></i>
+          <a href="./login page.html" class="navcom">login</a>
+        </div>
+        </li>
+        <li class="nav-item">
+          <div class="nav-link">
+            <i
+            class="fa-solid fa-magnifying-glass"
+            style="color: #ffffff; font-size: 25px; margin: 15px"
+          ></i>
+          <a href="#search" class="navcom">search</a>
+        </div>
+      </li>
+        <li class="nav-item">
+        <div class="nav-link">
+          <i
           class="fa-regular fa-address-book"
           style="color: #ffffff; font-size: 25px; margin: 15px"
         ></i>
         <a href="#contact" class="navcom">Contact</a>
-      </div>
+         </div>
+        </li>
+        <li class="nav-item">
+          <div class="nav-link">
+            <i class="fa-solid fa-cart-shopping"
+          style="color: #ffffff; font-size: 25px; margin: 15px"></i>
+          </div>
+        </li>
+      </lu>
     </nav>
 
     <img
@@ -80,7 +114,7 @@
               src="./images/montre classique.png"
               alt="./images/montre classique.png"
             />
-            <h2>Style Claassique</h2>
+            <h2>Claassique</h2>
           </div>
         </a>
       </li>
@@ -92,7 +126,7 @@
               src="./images/montre moderne.png"
               alt="./images/montre moderne.png"
             />
-            <h2>Style Moderne</h2>
+            <h2>Moderne</h2>
           </div>
         </a>
       </li>
@@ -109,10 +143,10 @@
         </a>
       </li>
     </ul>
-    <section class="container swiper">
+    <section class="container">
       <div class="card-wrapper ">
-        <lu class="card__content swiper-wrapper">
-            <li class="card__article swiper-slide">
+        <lu class="card__content ">
+            <li class="card__article ">
               <div class="card__text">
                 <div >
                   <img class="card__logo" src="./images/skmeilogo.png" alt="./images/skmeilogo.png" />
@@ -122,28 +156,25 @@
                   <a href="" class="card__btn"> Acheter</a>
                 </button>
               </div>
-              
-                <div class="card__image">
+              <div>
+              </div>
+              <div class="card__image">
                   <img
                     src="./images/montre jante2.png"
                     alt="./images/montre jante2.png.png"
                     class="card__img"
                   />
-                  <div class="card__shadow"></div>
+                  
                   <img
                     src="./images/montre jante.png"
                     alt="image"
                     class="card__img"
                   />
-                </div>
+              </div>
               
             </li>
         </lu>
       </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-scrollbar"></div>
     </section>
     <footer>
       <div id="information">

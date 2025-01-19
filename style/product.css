@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    width: 100vw;
+    position: fixed;
+    margin: 0;
+    z-index: 15;
+}
+.logoname{
+    display: flex;
+    align-items: center;
+
+
+}
+.titreh{
+    padding-top: 100px;
+}
+.marque{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.image-marque-position{
+    display: flex;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-marque{
+     width: 100%;
+     margin: 25px 0 ;
+}
+.image-marque2{
+    height: 100%;
+    width: 50vw;
+}
+.image-marque3{
+    height: 100%;
+    width: 40vw;
+}
+.element{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 20px;
+    transition: 0.4s ease-out;
+}
+.element:hover{
+    box-shadow: 0px 5px 20px 4px rgb(207, 207, 207);
+}
+.photo-montre-position{
+
+}
+.photo-montre2{
+    height: 300px;
+}
+.photo-montre{
+    width: 100%;
+}
+.type-montre{
+    font-size: 10px;
+    font-weight: 100;
+}
+.description-montre{
+    font-size: 7px;
+    font-weight: 500;
+}
+.prix-montre{
+    font-size: 15px;
+    font-weight: 300;
+}
+.diponibilité{
+    font-size: 10px;
+    font-weight: 100;
+    color: green;
+}
+button{
+    background-color: rgb(0, 0, 205);
+color: rgb(244, 244, 244);
+width: 100px;
+height: 40px;
+border: none;
+border-radius: 50px;
+font-weight: 900;
+}
+button:hover{
+    background-color: red;
+}
+@media (max-width: 990px) {
+    .marque{
+    display: block;
+   }
+   .image-marque2{
+    width: 100%;
+}
+
+}
